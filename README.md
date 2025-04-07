@@ -1,2 +1,2 @@
 # salepage
-Customizable Pages for Sales
+Customizable Template for Sales page
