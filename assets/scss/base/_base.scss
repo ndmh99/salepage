@@ -1,0 +1,187 @@
+/*=================================
+=            01 - BASE            =
+=================================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f4f5f9;
+}
+
+.modal-backdrop {
+  opacity: .8 !important;
+}
+
+.circle-icon-container {
+  .circle-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    border: 2px solid $theme-color;
+
+    i {
+      color: $theme-color;
+      font-size: 2rem;
+    }
+  }
+}
+
+/* Utilities */
+
+/* Background Color */
+.bg-theme-color {
+  background-color: $theme-color !important;
+}
+
+.bg-theme-color-2 {
+  background-color: $orange !important;
+}
+
+.bg-light {
+  background-color: $gray-100;
+}
+
+/* Border Color */
+.border-theme-color {
+  border-color: $theme-color !important;
+}
+
+/* Text Color */
+.text-theme-color {
+  color: $theme-color !important;
+}
+
+/* Rounded */
+.rounded-4 {
+  border-radius: 20px;
+}
+
+.rounded-4-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Padding */
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+/* Overlay Background Color Effect */
+.overlay-color-dark {
+	box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.45);
+	background: var(--image-url) center center no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.overlay-color-light {
+	box-shadow: inset 0 0 0 100vw rgba(242, 243, 250, 0.9);
+	background: var(--image-url) center center no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.overlay-theme-color {
+	box-shadow: inset 0 0 0 100vw rgba($theme-color, 0.9);
+	background: var(--image-url) center center no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Recommended by */
+.logo-brand {
+  img {
+    transition: all .4s ease-in-out;
+    -webkit-filter: grayscale(100%) !important;
+		filter: grayscale(100%) !important;
+    opacity: .5;
+
+    &:hover {
+      -webkit-filter: grayscale(0) !important;
+			filter: grayscale(0) !important;
+      opacity: 1;
+    }
+  }
+}
+
+/* Details */
+.details {
+  img {
+    @media #{$max-width-sm} {
+      width: 200px;
+    }
+  }
+  
+  .details-text {
+    @media #{$max-width-sm} {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+/* Testimonials */
+.testimonial {
+  background: lighten($gray-300, 5%);
+  color: $dark;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 30px;
+
+  &.speech-bubble {
+    &:before {
+      content: "";
+      position: absolute;
+      border-left: 10px solid lighten($gray-300, 5%);
+      border-right: 10px solid transparent;
+      border-top: 10px solid lighten($gray-300, 5%);
+      border-bottom: 10px solid transparent;
+      left: 35px;
+      bottom: -19px;
+    }
+  }
+}
+
+.testimonial-2 {
+  @media #{$max-width-md} {
+    text-align: center;
+  }
+}

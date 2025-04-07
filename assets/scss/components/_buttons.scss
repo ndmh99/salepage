@@ -1,0 +1,191 @@
+/*====================================
+=            05 - BUTTONS            =
+====================================*/
+
+button {
+  @include transition(.3s);
+}
+
+button {
+  &:focus,
+  &.focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+}
+
+.btn {
+  z-index: 999;
+  font-size: .9rem;
+  @include transition(.3s);
+
+  &.btn-lg {
+    font-size:  1.1rem;
+    padding: 15px 25px;
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
+
+  &:hover {
+    text-decoration: none !important;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+
+  &.disabled,
+  &:disabled {
+    opacity: 0.65;
+  }
+}       
+
+/* Custom button */
+.btn-custom {
+  background-image: linear-gradient(to right, $theme-color 0%, lighten($theme-color, 10%)  51%, $theme-color  100%);
+  text-align: center;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $white;
+
+  &:hover {
+    background-position: right center;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &.btn-lg {
+    font-size:  1.1rem;
+    padding: 15px 25px;
+  }
+}
+
+/* Custom button outline */
+.btn-outline-custom {
+  background-image: transparent;
+  text-align: center;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $theme-color;
+  border: 1px solid $theme-color;
+
+  &:hover {
+    background-image: linear-gradient(to right, $theme-color 0%, lighten($theme-color, 10%)  51%, $theme-color  100%);
+    background-position: right center;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &.btn-lg {
+    font-size:  1.1rem;
+    padding: 15px 25px;
+  }
+}
+
+/* Custom button outline white */
+.btn-outline-white-custom {
+  background-image: transparent;
+  text-align: center;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $white;
+  border: 1px solid $white;
+
+  &:hover {
+    background-image: linear-gradient(to right, $theme-color 0%, lighten($theme-color, 10%)  51%, $theme-color  100%);
+    background-position: right center;
+    color: $white;
+    border: 1px solid $theme-color;
+    text-decoration: none;
+  }
+
+  &.btn-lg {
+    font-size:  1.1rem;
+    padding: 15px 25px;
+  }
+}
+
+/* Custom button 2 */
+.btn-custom-2 {
+  background-image: linear-gradient(to right, $orange 0%, lighten($orange, 10%)  51%, $orange  100%);
+  text-align: center;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $white;
+
+  &:hover {
+    background-position: right center;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &.btn-lg {
+    font-size:  1.1rem;
+    padding: 15px 25px;
+  }
+}
+
+/* Custom button 2 outline */
+.btn-outline-custom-2 {
+  background-image: transparent;
+  text-align: center;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $orange;
+  border: 1px solid $orange;
+
+  &:hover {
+    background-image: linear-gradient(to right, $orange 0%, lighten($orange, 10%)  51%, $orange  100%);
+    background-position: right center;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &.btn-lg {
+    font-size:  1.1rem;
+    padding: 15px 25px;
+  }
+}
+
+/* Custom button 2 outline white */
+.btn-outline-white-custom-2 {
+  background-image: transparent;
+  text-align: center;
+  font-size: 15.5px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $white;
+  border: 1px solid $white;
+
+  &:hover {
+    background-image: linear-gradient(to right, $orange 0%, lighten($orange, 10%)  51%, $orange  100%);
+    background-position: right center;
+    color: $white;
+    border: 1px solid $orange;
+    text-decoration: none;
+  }
+
+  &.btn-lg {
+    font-size:  1.1rem;
+    padding: 15px 25px;
+  }
+}

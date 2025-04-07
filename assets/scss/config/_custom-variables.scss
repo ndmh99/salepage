@@ -1,0 +1,61 @@
+// Custom Variables
+
+// Colors
+$theme-color: #0d6efd; // Modify this value to change the main color.
+
+
+// Breakpoints
+
+// Min-width
+
+// Small devices (landscape phones, 576px and up)
+$min-width-sm: '@media (min-width: 576px)';
+
+// Medium devices (tablets, 768px and up)
+$min-width-md: '(min-width: 768px)';
+
+// Large devices (desktops, 992px and up)
+$min-width-lg: '(min-width: 992px)';
+
+// X-Large devices (large desktops, 1200px and up)
+$min-width-xl: '(min-width: 1200px)';
+
+// XX-Large devices (larger desktops, 1400px and up)
+$min-width-xxl: '(min-width: 1400px)';
+
+
+// Max-width
+
+// X-Small devices (portrait phones, less than 576px)
+$max-width-xs: '(max-width: 575.98px)';
+
+// Small devices (landscape phones, less than 768px)
+$max-width-sm: '(max-width: 767.98px)';
+
+// Medium devices (tablets, less than 992px)
+$max-width-md: '(max-width: 991.98px)';
+
+// Large devices (desktops, less than 1200px)
+$max-width-lg: '(max-width: 1199.98px)';
+
+// X-Large devices (large desktops, less than 1400px)
+$max-width-xl: '(max-width: 1399.98px)';
+
+
+
+// Single breakpoint
+
+// Only X-Small devices (portrait phones)
+$only-xs: '(min-width: 0) and (max-width: 575.98px)';
+
+// Only Small devices (landscape phones)
+$only-sm: '(min-width: 576px) and (max-width: 767.98px)';
+
+// Only Medium devices (tablets)
+$only-md: '(min-width: 768px) and (max-width: 991.98px)';
+
+// Only Large devices (desktops)
+$only-lg: '(min-width: 992px) and (max-width: 1199.98px)';
+
+// Only X-Large devices (large desktops)
+$only-xl: '(min-width: 1200px) and (max-width: 1399.98px)';

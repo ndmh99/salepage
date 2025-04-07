@@ -1,0 +1,48 @@
+/**
+
+	HTML Landing Pages Pack
+
+  - Version: 1.0
+
+  - 2021
+  
+  - Author: fronthemes
+  
+  - https://fronthemes.com
+
+ */
+
+/*-----------------------------*/
+
+/*
+CONTENT
+
+01 - BASE
+02 - FORMS
+03 - TYPOGRAPHY
+04 - HEADERS
+05 - BUTTONS
+06 - ACCORDION
+07 - FOOTERS
+*/
+
+/*-----------------------------*/
+
+// Configuration and helpers
+@import 
+'config/bootstrap',
+'config/custom-variables',
+'config/custom-mixins';
+
+// Base
+@import 
+'base/base',
+'base/forms',
+'base/typography';
+
+// Components
+@import 
+'components/headers',
+'components/buttons',
+'components/accordion',
+'components/footers';

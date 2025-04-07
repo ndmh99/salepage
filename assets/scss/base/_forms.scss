@@ -1,0 +1,41 @@
+/*==================================
+=            02 - FORMS            =
+==================================*/
+
+input, textarea, button {
+  @include transition(.3s);
+
+  &:focus {
+    outline: none;
+    @include box-shadow(none);
+  }
+}
+
+/* Form control */
+.form-control {
+  background-clip: inherit !important;
+
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+
+}
+
+/* Checkboxes and Radios */
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  border-color: $theme-color;
+  background-color: $theme-color;
+}
+
+/* Contact form */
+.contact {
+  textarea {
+    min-height: 130px !important;
+  }
+}

@@ -1,0 +1,9 @@
+/*======================================
+=            06 - ACCORDION            =
+======================================*/
+
+.accordion-button::after {
+	@media #{$max-width-sm} {
+		display: none;
+	}
+}
