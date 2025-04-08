@@ -1,3 +1,3 @@
 # SALEPAGE
 Quick Customizable Template for Online Business Landing Page
-![Template Preview](https://github.com/ndmh99/lyonplatform/blob/main/img/mainpage%20sample.png)
+![Template Preview](https://github.com/ndmh99/salepage/blob/main/Demo/Home.png)
