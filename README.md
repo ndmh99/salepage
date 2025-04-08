@@ -1,13 +1,13 @@
 # SALEPAGE
 Quick Customizable Template for Online Business Landing Page
 
-[Home] Section
+🏢 [Home] Section
 ![Template Preview](https://github.com/ndmh99/salepage/blob/main/Demo/Home.png)
 
-[Feature] Section
+🔭 [Feature] Section
 ![Template Preview](https://github.com/ndmh99/salepage/blob/main/Demo/Features.png)
 
-[Pricing Section]
+💰 [Pricing Section]
 ![Template Preview](https://github.com/ndmh99/salepage/blob/main/Demo/Pricing.png)
 
-...still in development, please wait! 
+... 🏗️ still in development, please wait!
